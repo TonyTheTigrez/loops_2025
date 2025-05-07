@@ -10,7 +10,7 @@ fruits = ["apple", "banana", "cherry", "date"]
 for fruit in fruits:
     print(fruit)
 # I just worked with loops
-
+#loool
 # Given a list of school subjects:
 subjects = ["Math", "Science", "History", "Art"]
 for subject in subjects:
