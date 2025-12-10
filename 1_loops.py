@@ -47,3 +47,33 @@ for applicant, score in zip(apc, credit_scores):
         continue
     print(f"{applicant} is approved for credit with a score of {score}")
     
+
+# for index in range(len(subject)-1):
+#     print("Subject " + str(index) +": " + subjects[index])
+
+
+numbers = [5, 10, 15, 20]
+
+total = 0
+for number in numbers:
+    total += number # total = total + number
+print("total: ", total)
+
+
+
+new_num = list(range(1, 261))
+
+total2 = 0
+
+
+for num in new_num:
+    total2 += num
+print(f"Total: {total2}")
+
+new_n = list(range(1, 260001))
+
+total3 = 0
+
+for number in new_n:
+    total3 += number
+print(f"Total: {total3}")
