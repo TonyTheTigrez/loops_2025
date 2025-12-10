@@ -31,5 +31,19 @@ for number in list1000:
 # Given:
 numbers = [5, 10, 15, 20]
 
+
+
+
 # Challenge:
 # Use a for loop to add all the numbers and print the total.
+
+
+apc = ["Alice", "Bob", "Charlie", "David", "Eve"]
+credit_scores = [720, 680, 590, 610 , 750]
+
+for applicant, score in zip(apc, credit_scores):
+    # zip function combines two lists into pairs
+    if score < 600:
+        continue
+    print(f"{applicant} is approved for credit with a score of {score}")
+    
